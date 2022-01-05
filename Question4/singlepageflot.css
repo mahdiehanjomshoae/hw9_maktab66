@@ -1,0 +1,178 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+.navbar {
+  float: left;
+  overflow: hidden;
+  margin-left: 40%;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #5acaec;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+ 
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color:#5acaec;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn ,.menu__left a:hover{
+  color: rgb(255, 196, 0);;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.menu__left a{
+color: #5acaec;
+
+}
+ 
+ .figure{
+    float: left;
+    margin: 30px;
+    box-shadow: 4px -2px 5px  #999898;
+  }
+  .s-box__back{
+    width: 100%;
+    background-color: #5acaec;
+    height: 50px;
+    float: left;
+     
+  }
+  .s-box__de {
+    margin-top: 20px;
+    margin-left: 90%;
+    color: white;
+    
+  }
+  .s-box__de a{
+    text-decoration: none;
+    color: white;
+  }
+  .s-box__des{
+  float: left;
+  margin: 20px;
+  color: white;
+  
+  }
+  .s-box__des a {
+    text-decoration: none;
+    color: white;
+  }
+  .s-box__des a:hover,.s-box__de a:hover{
+      color:rgb(255, 196, 0); ;
+  }
+  .gallery-container{
+      width: 100%;
+  }
+  .s-box__titel{
+    text-align: center;
+  }
+  .button {
+    background-color: #01ec09; 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button2 {
+      padding: 12px 28px;
+      margin-left: 45%;
+    }
+    .footertop{
+      
+      width: 100%;
+      margin-top: 50px;
+      background-color: #5acaec;
+      height: 70px;
+    }
+    .footertop  p{
+      float: left;
+      margin: 30px;
+      color: white;
+    }
+    .footertop form{
+      margin-left: 70%;
+      padding: 25px;
+    }
+
+   
+    .footerbetwen{
+      width: 100%;
+     
+    }
+    .logo__fotter{
+      float: right;
+    margin: 16px;
+    width:20%;
+    
+    } 
+   .book__fotter{
+    float: right;
+    margin: 16px;
+    width: 28%;
+    }
+    .link__fotter{
+      float: right;
+      margin: 16px;
+     width: 21%;
+    }
+    .social__fotter{
+      float: right;
+      margin: 16px;
+      width: 10%;
+    }
+    .footerbutton{
+      width: 100%;
+      margin-top: 15%;
+      background-color: #5acaec;
+      height: 40px;
+    }
+    .footerbutton p{
+      color: white;
+      text-align: center;
+      padding: 10px;
+      
+    }
